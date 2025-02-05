@@ -29,28 +29,31 @@ HNG12-Backend-Stage1Task/
     |--app.js
     |--LICENSE
     |--package-lock.json
-    |package.json
+    |--package.json
 
 ## Set Up Instructions
   
   To run this project locally
 
  1. Clone the repository:
-  git clone https://github.com/HilaryOkonkwo/HNG12-Backend-Stage0Task
+
+   git clone https://github.com/HilaryOkonkwo/HNG12-Backend-Stage0Task
 
  2. in your terminal, run the command
  
-  cd HNG12-Backend-Stage1Task 
+    cd HNG12-Backend-Stage1Task 
 
  2. Install dependencies:
 
-  npm install express cors
+    npm install express cors
 
  3. Run the server:
-  node app.js
 
- 4. Access the API at:
-  http://localhost:4000/api/classify-number?
+    node app.js
+
+ 4. Access the API at: 
+
+    http://localhost:4000/api/classify-number?
 
 ## Usage
 Once the server is running, you can make a GET request to /api/classify-number with a query parameter number to classify the number and get a fun fact. For example: http://localhost:4000/api/classify-number?number=371
