@@ -1,0 +1,27 @@
+{
+  "name": "hng12-backend-stage1task",
+  "version": "1.0.0",
+  "description": "Number Classification API",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HilaryOkonkwo/HNG12-Backend-Stage1Task.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HilaryOkonkwo/HNG12-Backend-Stage1Task/issues"
+  },
+  "homepage": "https://github.com/HilaryOkonkwo/HNG12-Backend-Stage1Task#readme",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
