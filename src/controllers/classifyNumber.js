@@ -7,7 +7,7 @@ const classifyNumber = async (req, res) => {
     // Validate input
     if (!number || isNaN(number) || !Number.isInteger(Number(number))) {
         return res.status(400).json({ 
-            "number":"alphabet", 
+             number: number, 
              error: true,
         });
         
