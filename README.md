@@ -53,7 +53,7 @@ HNG12-Backend-Stage1Task/
 
  4. Access the API at: 
 
-    http://localhost:4000/api/classify-number?
+    http://localhost:4000/api/classify-number?number
 
 ## Usage
 Once the server is running, you can make a GET request to /api/classify-number with a query parameter number to classify the number and get a fun fact. For example: http://localhost:4000/api/classify-number?number=371
@@ -62,6 +62,8 @@ Once the server is running, you can make a GET request to /api/classify-number w
 The project is deployed on Vercel, a platform known for its fast and easy deployment of web applications.
 
 Live URL:
+
+https://hng-12-backend-stage1-task-p6auob2yp-hilaryokonkwos-projects.vercel.app/api/classify-number?number
 
 ## API Endpoint
 

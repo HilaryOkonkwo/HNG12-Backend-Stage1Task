@@ -25,6 +25,9 @@ const classifyNumber = async (req, res) => {
             digit_sum: digitSum(num),
             fun_fact: funFactResponse.data.text
         });
+
+        res.json(response)
+
     } catch (error) {
         return res.status(500).json({ error: "Failed to fetch fun fact" });
     }
