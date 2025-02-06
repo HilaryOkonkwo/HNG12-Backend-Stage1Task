@@ -6,7 +6,11 @@ const classifyNumber = async (req, res) => {
     
     // Validate input
     if (!number || isNaN(number) || !Number.isInteger(Number(number))) {
-        return res.status(400).json({ number, error: true });
+        return res.status(400).json({ 
+            "number":"alphabet", 
+             error: true,
+        });
+        
     }
 
     const num = Number(number);
@@ -26,10 +30,12 @@ const classifyNumber = async (req, res) => {
             fun_fact: funFactResponse.data.text
         });
 
-        res.json(response)
-
     } catch (error) {
-        return res.status(500).json({ error: "Failed to fetch fun fact" });
+        return res.status(500).json({ 
+            success: false,
+            error: true,
+            message: "Failed to fetch fun fact."
+         });
     }
 };
 
